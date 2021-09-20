@@ -1,30 +1,3 @@
 # terraform-aws-fargate-service
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-## Requirements
-
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.5 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 2.24.0 |
-
-## Providers
-
-No providers.
-
-## Modules
-
-No modules.
-
-## Resources
-
-No resources.
-
-## Inputs
-
-No inputs.
-
-## Outputs
-
-No outputs.
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+Launch a Fargate service that can be associated with a load balancer. A service can be associated with a load balancer by assigning the service to an associated target group. The target group must be configured to accept `ip` target types.
